@@ -99,9 +99,9 @@ local function startScript(isOP)
     selectGui:Destroy()
     
     if isOP then
-        FarmPower = 160 -- Modo OP ajustado a 160 reps
+        FarmPower = 160 -- Modo OP en 160 reps
     else
-        FarmPower = 70  -- Modo Normal intacto en 70
+        FarmPower = 70  -- Modo Normal en 70 reps
     end
     
     FastFarm = true

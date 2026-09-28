@@ -9,8 +9,8 @@ local plr = Players.LocalPlayer
 -- 1. WHITELIST (PROTECCIÓN POR ID DE ROBLOX)
 -- ==========================================
 local allowedIDs = {
-    9247989057, -- ID 1 Autorizado
-    1806131849  -- ID 2 Autorizado
+    123456789, -- <--- IMPORTANTE: BORRA ESTE NÚMERO Y PON TU ID DE ROBLOX AQUÍ
+    987654321  -- (Opcional) Puedes poner el ID de un amigo, o borrar esta línea
 }
 
 local authorized = false
@@ -99,9 +99,9 @@ local function startScript(isOP)
     selectGui:Destroy()
     
     if isOP then
-        FarmPower = 160 -- Modo OP en 160 reps
+        FarmPower = 160 -- Ajustado a 160 a petición tuya
     else
-        FarmPower = 70  -- Modo Normal en 70 reps
+        FarmPower = 70  -- Se mantiene en 70 como el original
     end
     
     FastFarm = true
